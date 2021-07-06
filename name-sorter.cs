@@ -29,7 +29,7 @@ namespace GlobalXSort
             */
             List<string> sortedUsers = logList.OrderBy(user => user.Split(" ").Last()).
             ThenBy(user => user.Split(" ").First()).
-            ThenBy(user => user.Split(" ").Length == 3 ? user.Split(" ")[1] : "").
+            ThenBy(user => user.Split(" ")[1]).
             ThenBy(user => user.Split(" ").Length == 4 ? user.Split(" ")[2] : "").
             ToList();
 
