@@ -1,6 +1,6 @@
 # GlobalXNameSorter
 
-This project was coded on Ununtu Linux.
+This project was coded on Ubuntu Linux.
 
 To test the project I added a sample text file with some names.
 
